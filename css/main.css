@@ -531,6 +531,14 @@ a:hover {
     }
 }
 
+@media (min-width: 800px) and (max-width: 1000px) {
+    #sidebar > ul > li {
+        float:left;
+        width: 33%;
+    }
+}
+
+
 @media (min-width: 1000px) {
     #banner {
         height: 340px;
@@ -542,7 +550,6 @@ a:hover {
     }
 
     #sidebar {
-        float: left;
         width: 22%;
     }
 }
