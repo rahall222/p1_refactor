@@ -71,13 +71,10 @@ a:hover {
     color: #FFFFFF;
 }
 
-#logo h1, #logo p {
-}
-
 #logo h1 {
-    line-height: 120px;
+    line-height: 100px;
     letter-spacing: -2px;
-    font-size: 3.8em;
+    font-size: 2.8em;
 }
 
 #logo h1 a {
@@ -151,7 +148,6 @@ a:hover {
 /* Menu */
 
 #menu {
-    height: 90px;
     margin: 0 auto;
     padding: 0;
 }
@@ -170,7 +166,7 @@ a:hover {
 
 #menu a {
     display: block;
-    line-height: 100px;
+    line-height: 60px;
     margin-right: 1px;
     text-decoration: none;
     text-align: center;
