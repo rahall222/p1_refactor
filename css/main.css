@@ -49,6 +49,7 @@ a:hover {
 }
 
 .container {
+    max-width: 1000px;
     margin: 0px auto;
 }
 
@@ -59,6 +60,7 @@ a:hover {
 }
 
 #header {
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0px 0px;
 }
@@ -474,6 +476,7 @@ a:hover {
 }
 
 #banner {
+    max-width: 1000px;
     margin: 0px auto;
     background: url(../img/img03.png) no-repeat left bottom;
 }
@@ -527,4 +530,11 @@ a:hover {
         line-height: 100px;
         padding: 0px 20px 0px 20px;
     }
+}
+
+@media (min-width: 1000px) {
+    #banner {
+        height: 340px;
+    }
+
 }
