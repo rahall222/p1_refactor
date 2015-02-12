@@ -483,13 +483,12 @@ a:hover {
 
 #banner {
     margin: 0px auto;
-    height: 340px;
     background: url(../img/img03.png) no-repeat left bottom;
 }
 
-#banner .content {
+#banner .content img {
+    width: 100%;
 }
-
 
 .list-style1 {
     margin: 0px;
