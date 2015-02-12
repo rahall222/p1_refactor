@@ -510,6 +510,7 @@ a:hover {
     }
 
     #menu ul {
+        float: right;
         padding: 20px 0px 0px 0px;
     }
 
