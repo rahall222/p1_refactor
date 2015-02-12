@@ -497,6 +497,10 @@ a:hover {
 }
 
 @media (min-width: 700px) {
+    #header {
+        height: 150px;
+    }
+
     #logo {
         float: left;
     }
