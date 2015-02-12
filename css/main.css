@@ -59,7 +59,6 @@ a:hover {
 }
 
 #header {
-    height: 150px;
     margin: 0 auto;
     padding: 0px 0px;
 }
@@ -67,7 +66,6 @@ a:hover {
 /* Logo */
 
 #logo {
-    float: left;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
@@ -153,29 +151,27 @@ a:hover {
 /* Menu */
 
 #menu {
-    float: right;
     height: 90px;
     margin: 0 auto;
     padding: 0;
 }
 
 #menu ul {
-    float: right;
     margin: 0;
-    padding: 20px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     list-style: none;
     line-height: normal;
 }
 
 #menu li {
     float: left;
+    width: 20%;
 }
 
 #menu a {
     display: block;
     line-height: 100px;
     margin-right: 1px;
-    padding: 0px 20px 0px 20px;
     text-decoration: none;
     text-align: center;
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
@@ -498,4 +494,8 @@ a:hover {
 
 .list-style1 a {
     color: #7F7F7F;
+}
+
+.clear {
+    clear: both;
 }
