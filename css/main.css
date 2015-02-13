@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.8em;
+    font-size: 2.5em;
 }
 
 h3 {
@@ -300,6 +300,10 @@ a {
 }
 
 @media (min-width: 700px) {
+    h2 {
+        font-size: 2.8em;
+    }
+
     #header {
         height: 150px;
     }
