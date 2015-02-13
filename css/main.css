@@ -34,14 +34,8 @@ p, ul, ol {
     line-height: 180%;
 }
 
-ul, ol {
-}
-
 a {
     color: #5E5E5E;
-}
-
-a:hover {
 }
 
 #wrapper {
@@ -50,27 +44,21 @@ a:hover {
 
 .container {
     max-width: 1000px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 /* Header */
 
-#header-wrapper {
-    overflow: hidden;
-}
-
 #header {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0px 0px;
+    padding: 0;
 }
 
 /* Logo */
 
 #logo {
     margin: 0 0 0 10px;
-    padding: 0;
-    color: #FFFFFF;
 }
 
 #logo h1 {
@@ -84,67 +72,10 @@ a:hover {
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
 }
 
-#logo p {
-    margin: 0;
-    padding: 0px 0 0 0px;
-    letter-spacing: -1px;
-    font: normal 18px Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
-    color: #8E8E8E;
-}
-
-#logo p a {
-    color: #8E8E8E;
-}
-
 #logo a {
     border: none;
     background: none;
     text-decoration: none;
-    color: #000000;
-}
-
-/* Splash */
-
-#splash {
-    height: 300px;
-    margin: 0px auto;
-}
-
-/* Search */
-
-#search {
-    float: right;
-    height: 60px;
-    padding: 20px 0px 0px 0px;
-}
-
-#search form {
-    height: 41px;
-    margin: 0;
-    padding: 10px 0 0 20px;
-}
-
-#search fieldset {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-#search-text {
-    padding: 6px 5px 2px 5px;
-    border: 1px solid #E7EBED;
-    background: #FFFFFF;
-    text-transform: lowercase;
-    font: normal 11px Arial, Helvetica, sans-serif;
-    color: #5D781D;
-}
-
-#search-submit {
-    height: 22px;
-    border: none;
-    background: #B9B9B9;
-    color: #000000;
 }
 
 /* Menu */
@@ -156,7 +87,7 @@ a:hover {
 
 #menu ul {
     margin: 0;
-    padding: 0px 0px 0px 0px;
+    padding: 0;
     list-style: none;
     line-height: normal;
 }
@@ -187,9 +118,6 @@ a:hover {
     color: #FFFFFF;
 }
 
-#menu .current_page_item a {
-}
-
 /* Page */
 
 #page {
@@ -201,17 +129,16 @@ a:hover {
 /* Content */
 
 #content {
-    padding: 0px 0px 0px 0px;
+    padding: 0;
 }
 
 .post {
-    overflow: hidden;
     margin-bottom: 40px;
     border-bottom: 1px solid #E7EBED;
 }
 
 .post .title {
-    padding: 7px 0px 0px 0px;
+    padding: 7px 0 0 0;
     letter-spacing: -1px;
 }
 
@@ -223,7 +150,7 @@ a:hover {
 
 .post .meta {
     margin-bottom: 30px;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0 0 0;
     text-align: left;
     font-family: 'Abel', sans-serif;
     font-size: 16px;
@@ -238,11 +165,8 @@ a:hover {
     float: right;
 }
 
-.post .meta a {
-}
-
 .post .entry {
-    padding: 0px 0px 40px 0px;
+    padding: 0 0 40px 0;
     text-align: justify;
 }
 
@@ -278,7 +202,7 @@ a:hover {
 
 #sidebar {
     margin: 0px;
-    padding: 30px 0px 0px 0px;
+    padding: 30px 0 0 0;
 }
 
 #sidebar ul {
@@ -293,14 +217,14 @@ a:hover {
 }
 
 #sidebar li ul {
-    margin: 0px 0px;
+    margin: 0;
     padding-bottom: 30px;
 }
 
 #sidebar li li {
     line-height: 40px;
     border-bottom: 1px solid #E7EBED;
-    margin: 0px 0px;
+    margin: 0;
     border-left: none;
 }
 
@@ -313,21 +237,21 @@ a:hover {
 }
 
 #sidebar li li a {
-    padding: 0px 0px 0px 20px;
+    padding: 0 0 0 20px;
     background: url(../img/img04.jpg) no-repeat left 50%;
 }
 
 #sidebar h2 {
     height: 38px;
-    padding: 0px 0px 30px 0px;
+    padding: 0 0 30px 0;
     letter-spacing: -.5px;
     font-size: 1.8em;
     color: #222222;
 }
 
 #sidebar p {
-    margin: 0 0px;
-    padding: 0px 30px 20px 30px;
+    margin: 0;
+    padding: 0 30px 20px 30px;
     text-align: justify;
 }
 
@@ -337,83 +261,6 @@ a:hover {
 
 #sidebar a:hover {
     text-decoration: underline;
-}
-
-/* Calendar */
-
-#calendar {
-}
-
-#calendar_wrap {
-    padding: 20px;
-}
-
-#calendar table {
-    width: 100%;
-}
-
-#calendar tbody td {
-    text-align: center;
-}
-
-#calendar #next {
-    text-align: right;
-}
-
-/* Three Column Footer Content */
-
-#footer-content {
-    overflow: hidden;
-    margin: 0px auto;
-    color: #D6E2F0;
-}
-
-#footer-content a {
-    color: #92A9B6;
-}
-
-#footer-bg {
-    overflow: hidden;
-    padding: 30px 0px;
-    background: #E8E8E8;
-}
-
-#footer-content h2 {
-    margin: 0px;
-    padding: 0px 0px 20px 0px;
-    letter-spacing: -1px;
-    font-size: 26px;
-    color: #262626;
-}
-
-
-#footer-content #fbox1 {
-    float: left;
-    margin-right: 50px;
-}
-
-#footer-content #fbox2 {
-    float: left;
-}
-
-#footer-content #fbox3 {
-    float: right;
-}
-
-#footer-content a {
-}
-
-#column1 {
-    float: left;
-    margin-right: 30px;
-}
-
-#column2 {
-    float: left;
-}
-
-#column3 {
-    float: right;
 }
 
 /* Footer */
@@ -436,62 +283,14 @@ a:hover {
     color: #5E5E5E;
 }
 
-#footer a {
-    color: #5E5E5E;
-}
-
-#marketing {
-    overflow: hidden;
-    margin-bottom: 30px;
-    padding: 20px 0px 10px 0px;
-    border-top: 1px solid #E7EBED;
-    border-bottom: 1px solid #E7EBED;
-}
-
-#marketing .text1 {
-    float: left;
-    margin: 0px;
-    padding: 0px;
-    letter-spacing: -2px;
-    text-transform: lowercase;
-    font-size: 34px;
-    color: #345E9B;
-}
-
-#marketing .text2 {
-    float: right;
-}
-
-#marketing .text2 a {
-    display: block;
-    height: 38px;
-    padding: 15px 0px 0px 0px;
-    background: url(../img/img07.jpg) no-repeat left top;
-    letter-spacing: -2px;
-    text-align: center;
-    text-transform: lowercase;
-    font-size: 30px;
-    color: #FFFFFF;
-}
-
 #banner {
     max-width: 1000px;
-    margin: 0px auto;
+    margin: 0 auto;
     background: url(../img/img03.png) no-repeat left bottom;
 }
 
 #banner .content img {
     width: 100%;
-}
-
-.list-style1 {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-
-.list-style1 a {
-    color: #7F7F7F;
 }
 
 .clear {
@@ -511,13 +310,9 @@ a:hover {
         font-size: 3.8em;
     }
 
-    #menu {
-        float: right;
-    }
-
     #menu ul {
         float: right;
-        padding: 20px 0px 0px 0px;
+        padding: 20px 0 0 0;
     }
 
     #menu li {
@@ -527,7 +322,7 @@ a:hover {
 
     #menu a {
         line-height: 100px;
-        padding: 0px 20px 0px 20px;
+        padding: 0 20px 0 20px;
     }
 }
 
@@ -556,6 +351,6 @@ a:hover {
 
 @media (min-width: 1020px) {
     #logo {
-        margin: 0 0 0 0;
+        margin: 0;
     }
 }
