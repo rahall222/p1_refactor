@@ -118,6 +118,18 @@ a {
     color: #FFFFFF;
 }
 
+/* Banner */
+
+#banner {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: url(../img/img03.png) no-repeat left bottom;
+}
+
+#banner .content img {
+    width: 100%;
+}
+
 /* Page */
 
 #page {
@@ -281,16 +293,6 @@ a {
     text-transform: uppercase;
     text-align: center;
     color: #5E5E5E;
-}
-
-#banner {
-    max-width: 1000px;
-    margin: 0 auto;
-    background: url(../img/img03.png) no-repeat left bottom;
-}
-
-#banner .content img {
-    width: 100%;
 }
 
 .clear {
